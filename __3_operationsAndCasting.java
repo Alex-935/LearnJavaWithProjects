@@ -98,6 +98,7 @@ public class __3_operationsAndCasting {
          */
 
         //Using final to set a value means you can get away with assigning values to other as long as they are within the types range.
+        //known as a compile-time constant
         final char ch = 12;
         final int in = 6;
 
