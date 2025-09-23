@@ -87,7 +87,7 @@ public class __8_classesObjectsEnums {
         private - accessible only by its own class. Black scope of a class defines the boundary.
         public - is visible anywhere and has no restrictions. Available is class, package, subclass and everywhere.
         package-private - available in class and package.
-        protected - Available in class, package, subclass.
+        protected - Available in class, package, subclass. Access to a protected member from outside the package is not allowed. Outside the package, it becomes private. Children can access their own but not the supers.
 
         any public classes  must match the file name, you cannot have more than one public class per file.
          */

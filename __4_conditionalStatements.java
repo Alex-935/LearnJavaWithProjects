@@ -97,5 +97,25 @@ public class __4_conditionalStatements {
             }
         };
         System.out.println(nletters2);
+
+
+        /*
+        Inheritance - we can use types that inherit from a super class
+        Guarded case - a condition on the right hand side of a case statement
+         */
+        vehicleMatch(new Boat());
+
+    }
+
+    static void vehicleMatch(Vehicle v) {
+        System.out.println(
+                switch(v) {
+                    case Boat b -> "It's a boat";
+                    case Train t-> "It's a train";
+                    case Car c when c.getNumDoors() == 4 -> "Saloon";
+                    case Car c when c.getNumDoors() == 2 -> "Convertible";
+                    case null, default -> "Invalid Type";
+                }
+        );
     }
 }
