@@ -45,12 +45,12 @@ class Brachiosaurus implements Herbivore{
 
 }
 
-abstract class Vehicle{
+abstract class xVehicle{
 
     abstract void travel();
 }
 
-class Jeep extends Vehicle {
+class Jeep extends xVehicle {
 
     @Override
     void travel() {
@@ -58,7 +58,7 @@ class Jeep extends Vehicle {
     }
 }
 
-class Helicopter extends Vehicle {
+class Helicopter extends xVehicle {
 
     @Override
     void travel() {
@@ -70,7 +70,7 @@ interface Worker {
 
 }
 
-class Employee implements Worker {
+class xEmployee implements Worker {
 
 }
 
