@@ -50,6 +50,16 @@ public class __11_dealingWithExceptions {
             /*
             implement AutoClosables and override close
              */
+
+
+            /*
+            for inheritence, exceptions can be raised as follows if not in a try, catch statement:
+                - public void readStuff() throws IOException {
+            Overriding
+                - exceptions cannot be raised that were not raisable in the parent class
+                - an override can raise exceptions raisable in the parent (including subclasses, such as FileNotFoundException which is a subclass of IOException)
+                - we can choose not to declare an exception
+             */
         }
     }
 }
