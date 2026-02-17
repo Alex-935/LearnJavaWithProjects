@@ -1,3 +1,5 @@
+package _10;
+
 import java.util.ArrayList;
 
 interface DinosaurInt {
